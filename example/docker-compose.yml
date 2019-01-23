@@ -2,12 +2,12 @@
 version: '3'
 services:
   ifirlana:
-    image: ifirlana/docker-angular7:test
+    build: .
     deploy:
       resources:
         limits:
           cpus: '0.50'
-          memory: 50M
+          memory: 256M
         reservations:
           cpus: '0.25'
-          memory: 20M
+          memory: 256M
