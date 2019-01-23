@@ -12,5 +12,5 @@ RUN apk --no-cache add \
     make 
 RUN apk --no-cache add nodejs-lts --update 
 RUN npm install -g @angular/cli@7.2.2 
-WORKDIR /root/compiler
-COPY . /root/compiler
+WORKDIR /
+COPY . /

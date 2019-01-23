@@ -1,0 +1,11 @@
+{
+  "name": "example-angular7",
+  "version": "0.0.1",
+  "description": "just anything you want to build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ikhlas firlana <ifirlana@gmail.com>",
+  "license": "ISC"
+}
